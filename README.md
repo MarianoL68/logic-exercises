@@ -56,3 +56,10 @@ This repository contains two programming exercises solved in JavaScript.
 **minAmountOfChange(coins)**
 - Input: [5, 7, 1, 1, 2, 3, 22]
 - Output: 20
+
+## Code verification with ESLint
+
+- To check if the code complies with ESLint rules, run the following command:
+
+  ```bash
+  npm run lint
