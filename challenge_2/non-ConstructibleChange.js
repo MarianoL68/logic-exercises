@@ -23,7 +23,7 @@ function minAmountOfChange(coins) {
         if (coins[i] > minChange) {
             return minChange; // Returns the first value that cannot be formed with the available coins
         }
-        minChange += coins[i]; // Increment minChange by the current coin value
+        minChange += coins[i]; // Otherwise, minChange is incremented by the current value of the coin
     }
 
     return minChange; // Returns minChange if all coins could be used without leaving unformed values.

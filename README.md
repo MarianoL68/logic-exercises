@@ -7,7 +7,7 @@ This repository contains two programming exercises solved in JavaScript.
 
 ## Requirements
 
-- Node.js (version 12 or higher)
+- Node.js (version 21.6.0)
 - npm as the package manager
 
 ## Installation

@@ -12,7 +12,7 @@ Return the pair in an array. If such pair does not exist, return an empty array.
  */
 
 function findPairWithSum(numbers, targetSum) {
-    const seenNumbers = []; // Array to store the numbers already traversed
+    const seenNumbers = []; // Array to store the numbers already seen
 
     for (let number of numbers) {
         const complement = targetSum - number; // Calculate what number is needed to equal targetSum
