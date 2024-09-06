@@ -50,9 +50,9 @@ This repository contains two programming exercises solved in JavaScript.
 ## Usage Examples
 
 **findPairWithSum(numbers, targetSum)**
-Input: [2, 7, 11, 15], 9
-Output: [2, 7]
+- Input: [2, 7, 11, 15], 9
+- Output: [2, 7]
 
 **minAmountOfChange(coins)**
-Input: [5, 7, 1, 1, 2, 3, 22]
-Output: 20
+- Input: [5, 7, 1, 1, 2, 3, 22]
+- Output: 20
