@@ -1,0 +1,24 @@
+{
+  "name": "logic-exercises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:01": "jest challenge_1/twoNumberSum.test.js",
+    "test:02": "jest challenge_2/non-ConstructibleChange.test.js",
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.9.1",
+    "eslint": "^9.9.1",
+    "globals": "^15.9.0",
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "eslint-plugin-jest": "^28.8.3"
+  }
+}
